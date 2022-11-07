@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Enter A x");
+int ax = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter A y");
+int ay = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter A z");
+int az = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter B x");
+int bx = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter B y");
+int by = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter B z");
+int bz = Convert.ToInt32(Console.ReadLine());
+double res =  Math.Sqrt(Math.Pow(bx - ax, 2) + Math.Pow(by - ay, 2) + Math.Pow(bz - az, 2)); 
+Console.WriteLine(res);
